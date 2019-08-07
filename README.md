@@ -69,6 +69,9 @@ Curl:
 **4 - Agora você deve criar uma interface que tenha uma barra superior que exibe a logo e o nome da escola, uma lista que vai mostrar as mensagens obtidas na requisição anterior e uma barra de navegação na parte inferior (use ícones e descrições de exemplo).**
 
 
+***EXTRA***
+Será considerado um diferencial se você fizer tratamentos de erros, falhas de rede e indicadores de carregamento para melhorar a usabilidade do usuário.
+
 # Telas
 
 ![Telas](http://du72ei5gcsbn3.cloudfront.net/static/react-native-test/guia-teste-mobile.png)
