@@ -27,7 +27,7 @@ API:
 
     http://apiteste.escolaemmovimento.com.br/api/v1/Acesso/login
 
-Curl:
+Curl (exemplo):
 
     curl -X POST \
       https://apiteste.escolaemmovimento.com.br/api/v1/Acesso/login \
@@ -51,12 +51,15 @@ Curl:
 
 **3 - Quando o usuário tocar em uma das escolas, abra uma nova interface com a logo da escola em uma escala maior, ocupando todo o espectro horizontal da tela do app. Ainda nessa interface com a logo, o app deve fazer a requisição abaixo, para obter a lista de mensagens do usuário, enquanto a requisição é processada, um ícone de carregando deve ser exibido abaixo da logo.**
 
-API:
-  *A URL para essa API deve ser construída a partir do retorno obtido na requisição anterior (login), usando o atributo "contexto".*
+1. A URL da API deve ser construída a partir do retorno obtido na requisição anterior (login), usando o atributo "contexto".
+
+2. No header dessa requisição deve ser adicionado a chave "X-Authorization" com um token que é retornado na requisição do login.
+
+URL:
   
     https://`contexto`/api/mensagem/ultimas-noticias/v3
 
-Curl:
+Curl (exemplo):
 
     curl -X POST \
       https://`contexto`/api/mensagem/ultimas-noticias/v3 \
