@@ -70,7 +70,10 @@ Curl:
 
 
 ***EXTRA***
+
 Será considerado um diferencial se você fizer tratamentos de erros, falhas de rede e indicadores de carregamento para melhorar a usabilidade do usuário.
+
+
 
 # Telas
 
