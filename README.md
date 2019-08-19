@@ -30,7 +30,7 @@ API:
 Curl (exemplo):
 
     curl -X POST \
-      https://apiteste.escolaemmovimento.com.br/api/v1/Acesso/login \
+      http://apiteste.escolaemmovimento.com.br/api/v1/Acesso/login \
       -H 'Content-Type: application/json' \
       -d '{
         "login": "pai",
@@ -57,12 +57,12 @@ Curl (exemplo):
 
 URL:
   
-    https://`contexto`/api/mensagem/ultimas-noticias/v3
+    http://`contexto`/api/mensagem/ultimas-noticias/v3
 
 Curl (exemplo):
 
     curl -X POST \
-      https://`contexto`/api/mensagem/ultimas-noticias/v3 \
+      http://`contexto`/api/mensagem/ultimas-noticias/v3 \
       -H 'Content-Type: application/json' \
       -H 'X-Authorization: zTIwexp/s0oDIiu7B2tK4Bj8tN8Ehj+P8hvtt9AxOsAJDhe4M7uX6TKx9qfKAIB99PuXgCd2CNes1vtFOc3YTA==' \
       -d '{
