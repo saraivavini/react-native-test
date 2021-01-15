@@ -25,12 +25,12 @@
 
 API:
 
-    http://apiteste.escolaemmovimento.com.br/api/v1/Acesso/login
+    http://api.tst2.escolaapp.com/api/v1/Acesso/login
 
 Curl (exemplo):
 
     curl -X POST \
-      http://apiteste.escolaemmovimento.com.br/api/v1/Acesso/login \
+      http://api.tst2.escolaapp.com/api/v1/Acesso/login \
       -H 'Content-Type: application/json' \
       -d '{
         "login": "pai",
