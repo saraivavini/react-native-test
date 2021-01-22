@@ -25,12 +25,12 @@
 
 API:
 
-    http://api.tst2.escolaapp.com/api/v1/Acesso/login
+    https://api.tst2.escolaapp.com/api/v1/Acesso/login
 
 Curl (exemplo):
 
     curl -X POST \
-      http://api.tst2.escolaapp.com/api/v1/Acesso/login \
+      https://api.tst2.escolaapp.com/api/v1/Acesso/login \
       -H 'Content-Type: application/json' \
       -d '{
         "login": "pai",
@@ -62,7 +62,7 @@ URL:
 Curl (exemplo):
 
     curl -X POST \
-      http://`contexto`/api/mensagem/ultimas-noticias/v3 \
+      https://`contexto`/api/mensagem/ultimas-noticias/v3 \
       -H 'Content-Type: application/json' \
       -H 'X-Authorization: zTIwexp/s0oDIiu7B2tK4Bj8tN8Ehj+P8hvtt9AxOsAJDhe4M7uX6TKx9qfKAIB99PuXgCd2CNes1vtFOc3YTA==' \
       -d '{
